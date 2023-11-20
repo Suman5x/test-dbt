@@ -1,0 +1,26 @@
+elementary:
+  outputs:
+    default:
+      type: snowflake
+      account: ifb22966.us-east-1
+      user: sumank
+      password: XXkOYJVVZw#8
+      role: accountadmin
+      warehouse: compute_wh
+      database: test_db
+      schema: test_schema
+      threads: 4
+dbt_suman_local:
+  outputs:
+    dev:
+      account: ifb22966.us-east-1
+      database: test_db
+      password: XXkOYJVVZw#8
+      role: accountadmin
+      schema: test_schema
+      threads: 4
+      type: snowflake
+      user: sumank
+      warehouse: compute_wh
+  target: dev
+
