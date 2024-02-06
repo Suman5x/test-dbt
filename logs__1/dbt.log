@@ -1,0 +1,13 @@
+[0m13:17:51.205229 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106c15c10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106c06ed0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106c06610>]}
+
+
+============================== 13:17:51.207502 | a76c312f-eda5-4e59-9857-9a2fc629773e ==============================
+[0m13:17:51.207502 [info ] [MainThread]: Running with dbt=1.7.2
+[0m13:17:51.207804 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/Users/suman/workspace/test-dbt', 'version_check': 'True', 'fail_fast': 'False', 'log_path': '/Users/suman/workspace/test-dbt/logs__1', 'debug': 'False', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'invocation_command': 'dbt --log-path logs__1 deps', 'log_format': 'default', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m13:17:51.246913 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'a76c312f-eda5-4e59-9857-9a2fc629773e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106c87290>]}
+[0m13:17:51.247283 [info ] [MainThread]: Warning: No packages were found in packages.yml
+[0m13:17:51.247614 [info ] [MainThread]: Warning: No packages were found in packages.yml
+[0m13:17:51.249280 [debug] [MainThread]: Resource report: {"command_name": "deps", "command_success": true, "command_wall_clock_time": 0.07014946, "process_user_time": 0.835189, "process_kernel_time": 0.10822, "process_mem_max_rss": "107298816", "process_in_blocks": "0", "process_out_blocks": "0"}
+[0m13:17:51.249589 [debug] [MainThread]: Command `dbt deps` succeeded at 13:17:51.249521 after 0.07 seconds
+[0m13:17:51.249765 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106c10dd0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104857f10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1005f3d10>]}
+[0m13:17:51.249931 [debug] [MainThread]: Flushing usage events
